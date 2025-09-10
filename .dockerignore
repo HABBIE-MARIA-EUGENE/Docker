@@ -1,0 +1,11 @@
+Set-Content -Path .\.dockerignore -Value @'
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+myenv/
+.git
+.DS_Store
+'@ -Encoding utf8
